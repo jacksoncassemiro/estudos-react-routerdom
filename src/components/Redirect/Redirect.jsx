@@ -15,7 +15,9 @@ export const Redirect = () => {
     }, 1000);
 
     if(time < 0){
-      navigate("/")
+      navigate("/about", {
+        state: `Valor que estar sendo enviado pelo redirecionamento com número aleatório: ${Math.random()}`
+      })
     }
 
     return () => {
