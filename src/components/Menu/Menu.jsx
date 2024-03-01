@@ -12,10 +12,10 @@ export const Menu = () => {
           <Link to="/about">About</Link>
         </li>
         <li>
-          <Link to="/post">Posts</Link>
+          <Link to="/posts">Posts</Link>
         </li>
         <li>
-          <Link to="/post/10?page=teste">Post 10</Link>
+          <Link to="/posts/10?page=teste">Post 10</Link>
         </li>
         <li>
           <Link to="/redirect">Redirect</Link>
